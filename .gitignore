@@ -1,0 +1,43 @@
+# Build output
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+publish/
+*.nupkg
+
+# Test results
+TestResults/
+coverage/
+*.trx
+
+# SQLite databases (created at runtime, seed from code instead)
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Local config and secrets
+.env
+.env.*
+appsettings.*.local.json
+*.local.json
+
+# IDEs
+.vs/
+.idea/
+*.user
+*.suo
+*.rsuser
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
